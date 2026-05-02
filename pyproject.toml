@@ -1,0 +1,15 @@
+[project]
+name = "fastapi-playground"
+dynamic = ["version"]
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["fastapi[standard]>=0.136.1"]
+
+
+[tool.hatch.version]
+path = "app/__version__.py"
+
+
+[tool.ruff]
+line-length = 120
